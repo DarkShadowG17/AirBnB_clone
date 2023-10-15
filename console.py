@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Holberton AirBnB Console """
+""" ALX AirBnB Console """
 import cmd
 import sys
 import json
@@ -131,4 +131,3 @@ class HBNBCommand(cmd.Cmd):
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
-
